@@ -1498,12 +1498,6 @@ body::after {
   }
 }
 
-@media (max-width: 991991.98px) {
-  .popup--second .popup__content {
-    padding: 96px 16px 60px 16px;
-  }
-}
-
 @media (max-width: 767991.98px) {
   .popup--second .form__second-popup .form__line label {
     font-weight: 700;
@@ -1518,6 +1512,10 @@ body::after {
 }
 
 @media (max-width: 991.98px) {
+  .popup--second .popup__content {
+    padding: 96px 16px 60px 16px;
+  }
+
   .popup--second .popup__close {
     top: 32px;
     right: 16px;
